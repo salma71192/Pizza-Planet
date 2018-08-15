@@ -19,4 +19,22 @@ app.controller('MainController', ['$scope', function($scope) {
     }
   ];
 
+  $scope.mains = [
+    {
+      name: 'MARGHERITA',
+      description: 'Marinara sauce, mozzarella, fresh basil.',
+      price: 6.95
+    },
+    {
+      name: 'PEPPERONI',
+      description: 'Pepperoni, marinara sauce, mozzarella, fresh oregano.',
+      price: 7.95
+    },
+    {
+      name: 'RUSTICA',
+      description: 'Marinara sauce, kalamata olives, roasted garlic, fresh oregano.',
+      price: 8.95
+    }
+  ];
+
 }]);
